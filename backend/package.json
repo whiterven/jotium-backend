@@ -1,0 +1,33 @@
+{
+  "name": "jotium-chat-backend",
+  "version": "1.0.0",
+  "description": "Node.js Express backend for Jotium chat app with Gemini agent",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^1.8.0",
+    "@modelcontextprotocol/sdk": "^1.13.3",
+    "@smithery/sdk": "^1.5.2",
+    "@upstash/redis": "^1.35.1",
+    "axios": "^1.10.0",
+    "cheerio": "^1.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.1",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "multer": "^2.0.1",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.10",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "url": "^0.11.4",
+    "uuid": "^11.1.0"
+  }
+}
